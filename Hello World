@@ -3,13 +3,13 @@
 
 First Program In C 
 
-#include<stdio.h>
+#include<stdio.h>             // For Inclusion Of Header Files 
 
-int main()
+int main()                    // starting Point Of The Program 
 {
 
-printf("Hello World");
-return 0;
+printf("Hello World");        // For Printing The Output 
+return 0;                     // Successfull Termination
 
 
 }
