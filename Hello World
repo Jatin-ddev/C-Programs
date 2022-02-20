@@ -1,15 +1,15 @@
 
 
+// Program1 Hello World
 
-First Program In C 
-
-#include<stdio.h>             // For Inclusion Of Header Files 
-
-int main()                    // starting Point Of The Program 
-{
-
-printf("Hello World");        // For Printing The Output 
-return 0;                     // Successfull Termination
+#include<stdio.h>             // for printf() & Scanf()
 
 
+int main(){                               // Starting point of the program execution
+
+printf("Hello World");                          // For Printing On the output console
+
+return 0;                                   // For Indicating That the Program Terminated Successfully 
 }
+
+
