@@ -1,0 +1,13 @@
+// Intrducing you to data types :> 
+
+#include<stdio.h>
+
+void main()
+{
+ int Num=12;		            // Variable Declaration + Intialization of int type means integer 
+ int WEIGHT = 25;              
+ float HeIgHt=4.5;           // of float type means decimal
+ char name[10]=“AMIT”;        // String Type Means sequence of characters
+ 
+ printf(“Num :%d \nWEIGHT : %d \nHeight : %g \nName =%s”,Num,WEIGHT,HeIgHt,name);
+}
