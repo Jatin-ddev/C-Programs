@@ -1,0 +1,29 @@
+//Program 10 sum sub multi div mod
+
+#include <stdio.h>                    // For Printf() & Scanf()
+
+int main()                  // starting Point Of The Program
+{
+    int num1, num2,sum, sub, mult, mod;             // Variable Declaration 
+    float div;                                          
+
+
+    printf("Enter any two numbers : ");                 // Request For Input 
+    scanf("%d%d",&num1,&num2);                          // Input from user
+
+
+    sum=num1+num2;                                      // All Operations
+    sub=num1-num2;
+    mult=num1*num2;
+    div=(float)num1/num2;
+    mod=num1%num2;
+
+
+    printf("The sum of the given numbers : %d\n", sum);             // Printing all Operations
+    printf("The difference of the given numbers : %d\n", sub);
+    printf("The product of the given numbers : %d\n", mult);
+    printf("The quotient of the given numbers : %f\n", div);
+    printf("MODULUS = %d\n", mod);
+
+    return 0;
+}
