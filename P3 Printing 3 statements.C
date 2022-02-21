@@ -14,3 +14,6 @@ int main()                                 // starting point of program Executio
     
     
 }
+
+
+/* \n = next line   */
