@@ -1,0 +1,15 @@
+#include<stdio.h>                       // For Printf() & scanf()
+
+int main(){                         // Starting Point Of The Program
+    
+   char ch;                    // Variable Declaration 
+    
+    printf(" Enter a character: ");         // Request for input 
+    scanf("%c",&ch);                        //  Input From the User
+    
+    printf("%d",ch);    // Printign the Result Out!!
+    
+    return 0;   
+    
+             // End Status For Indicating That The Program Terminated Successfully!!!!!
+}
