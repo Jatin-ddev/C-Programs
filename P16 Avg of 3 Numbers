@@ -1,0 +1,23 @@
+
+
+// Printing Average Of 3 Numbers
+
+#include<stdio.h>
+
+int main(){
+
+
+float num1, num2, num3 , avg;
+
+printf("Enter Any Three Numbers: ");
+scanf("%f %f %f",&num1,&num2,&num3);
+
+avg=(num1+num2+num3)/3 ;
+
+// or avg=(num1+num2+num3)*(0.333333);
+
+printf("\n The Average Is : %f",avg);
+
+return 0;
+
+}
