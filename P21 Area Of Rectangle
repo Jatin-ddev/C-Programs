@@ -1,0 +1,22 @@
+// Area Of Rectangle = Length * Width
+
+#include<stdio.h>
+
+int main(){
+
+int len , wid ;
+long int Ar;
+
+printf(" Enter The Length Of Rectangle : ");
+scanf("%d",&len);
+
+printf(" Enter The Width Of Rectangle: ");
+scanf("%d",&wid);
+
+Ar=len*wid;
+
+printf("\n The Area Of Rectangle Is %ld",Ar);
+
+return 0;
+
+}
