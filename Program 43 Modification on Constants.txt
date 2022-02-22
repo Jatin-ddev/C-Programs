@@ -1,0 +1,11 @@
+
+
+#include<stdio.h>
+
+void main()
+{
+const int num=12;
+++num;
+}
+
+// Can`t Modify Constant 
