@@ -1,0 +1,17 @@
+// WAP to find out whether a Entered no. Is Even Or Odd.
+
+
+#include<stdio.h>
+
+void main()
+{
+int n;
+
+printf("\n\n\t Enter any number =");
+scanf("%d",&n);
+if(n%2==0)
+printf("\n\t\t Number is even");
+else
+printf("\n\t\t Number is odd");
+
+}
