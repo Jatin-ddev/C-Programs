@@ -1,0 +1,21 @@
+
+
+
+// Post (Increment and Dec )
+
+#include<stdio.h>
+
+void main(){
+
+int num;     //2
+
+printf("enter a number: ");
+scanf("%d",&num);
+
+printf("%d\n",num);   //2
+printf("%d\n",num++);  //2
+printf("%d\n",num); //3
+printf("%d\n",num--); //3
+printf("%d\n",num);//2
+
+}
